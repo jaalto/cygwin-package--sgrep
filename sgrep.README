@@ -1,0 +1,78 @@
+sgrep
+------------------------------------------
+
+Search indexed text regions like SGML,XML and HTML files
+
+Structured grep is a tool for searching and indexing text, SGML,XML
+and HTML files and filtering text streams using structural criteria.
+The data model of sgrep is based on regions, which are nonempty
+substrings of text. Regions are typically occurrences of constant
+strings, SGML-tags, or meaningful text elements, which are
+recognizable through some delimiting strings or the builtin SGML, XML
+and HTML parser. Regions can be arbitrarily long, arbitrarily
+overlapping, and arbitrarily nested.
+
+Runtime requirements:
+  cygwin
+
+Build requirements:
+  cygwin
+
+Canonical homepage:
+  http://www.cs.helsinki.fi/u/jjaakkol/sgrep.html
+  http://packages.debian.org/sgrep
+
+Canonical download:
+  http://www.cs.helsinki.fi/u/jjaakkol/sgrep/download.html
+
+Version control repository:
+
+Mailing list:
+
+Forum / Wiki:
+
+IRC channel:
+
+Upstream contact:
+  Maintainer: Jani Jaakkola <jjaakkol@cs.helsinki.fi>
+
+License:
+  GPL
+
+Language:
+  C
+
+------------------------------------
+
+Build instructions:
+  unpack sgrep-*-src.tar.bz2
+    if you use setup to install this src package, it will be
+         unpacked under /usr/src automatically
+  cd /usr/src
+  ./sgrep*.sh all
+
+This will create:
+  installable binary package
+
+-------------------------------------------
+
+Files included in the binary distro:
+
+  <See content of *.tar.gz>
+
+------------------
+
+Port Notes:
+
+----- version 1.94a-2 -----
+- 2008-02-20 Jari Aalto
+- Move  /etc/defaults/etc/sample.sgreprc to  /etc/defaults/etc/sgreprc
+  to fix postinstall and copying file to /etc/sgreprc. This was a bug
+  in the binary package structure.
+
+----- version 1.94a-1 -----
+- Initial release 2007-12-21 Jari Aalto, published in
+  cygwin-announce 2008-02-18
+
+Cygwin port maintained by: Jari Aalto <jari.aalto@cante.net>
+Copyright (C) 2007-2008 Jari Aalto; Licensed under GPL v2 or later

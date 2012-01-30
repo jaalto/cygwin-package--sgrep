@@ -1,0 +1,26 @@
+From 7e6e19e8d39f0b8188f08224ad76211bdb6badb9 Mon Sep 17 00:00:00 2001
+From: Jari Aalto <jari.aalto@cante.net>
+Date: Fri, 15 Feb 2008 16:08:50 +0200
+Subject: [PATCH] sgrep.1: change /usr/lib/sgreprc to /etc/sgreprc
+
+Signed-off-by: Jari Aalto <jari.aalto@cante.net>
+---
+ sgrep.1 |    2 +-
+ 1 files changed, 1 insertions(+), 1 deletions(-)
+
+diff --git a/sgrep.1 b/sgrep.1
+index 694f52b..c07d102 100644
+--- a/sgrep.1
++++ b/sgrep.1
+@@ -91,7 +91,7 @@ are read by default first from file
+ \fB$HOME/.sgreprc,\fP
+ or if it doesn't exist,
+ from file
+-\fB/usr/lib/sgreprc, \fP
++\fB/etc/sgreprc, \fP
+ and then from the command line. Different behavior
+ can be specified through command line options.
+ .Pp
+-- 
+1.5.3.8
+

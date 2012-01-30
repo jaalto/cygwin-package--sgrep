@@ -1,0 +1,2 @@
+tag1: sgrep
+  http://packages.debian.org/unstable/sgrep pregexp:orig.tar.gz file:sgrep_1.94a.orig.tar.gz new: x:

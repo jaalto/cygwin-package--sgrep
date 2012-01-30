@@ -1,0 +1,5 @@
+# When ./confgure is being run, options listed here are appended
+# after default Cygwin option set.
+
+# Was /usr/share/sample.sgreprc, relocate
+--datadir=/etc

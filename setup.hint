@@ -1,0 +1,11 @@
+sdesc: "Search indexed text regions like SGML,XML and HTML files"
+ldesc: "Structured grep is a tool for searching and indexing text, SGML,XML
+and HTML files and filtering text streams using structural criteria.
+The data model of sgrep is based on regions, which are nonempty
+substrings of text. Regions are typically occurrences of constant
+strings, SGML-tags, or meaningful text elements, which are
+recognizable through some delimiting strings or the builtin SGML, XML
+and HTML parser. Regions can be arbitrarily long, arbitrarily
+overlapping, and arbitrarily nested."
+category: Utils
+requires: cygwin
