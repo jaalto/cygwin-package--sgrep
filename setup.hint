@@ -8,4 +8,4 @@ recognizable through some delimiting strings or the builtin SGML, XML
 and HTML parser. Regions can be arbitrarily long, arbitrarily
 overlapping, and arbitrarily nested."
 category: Utils
-requires: cygwin
+
